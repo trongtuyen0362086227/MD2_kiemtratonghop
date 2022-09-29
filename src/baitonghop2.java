@@ -74,6 +74,14 @@ public class baitonghop2 {
                     }
                     break;
                 case 4:
+                    System.out.println("cac phan tu cua mang truoc khi sap xep: ");
+                    for (int i = 0; i < hang; i++) {
+                        for (int j = 0; j < cot; j++) {
+                            System.out.printf("%d\t", arr[i][j]);
+                        }
+                        System.out.println("\n");
+                    }
+                    System.out.println("\n");
                     System.out.println("mang sau khi sap xep giam dan theo cot la: ");
                     for (int i = 0; i < hang; i++) {
                         for (int j = 0; j < cot; j++) {
